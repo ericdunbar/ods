@@ -25,6 +25,6 @@ public class Point3D {
 	public static void main(String[] args) {
 		Integer two = -3;
 		long ltwo = two & (1L<<32)-1;
-		System.out.println(two.hashCode() + " " + ltwo);
+		System.out.println(two.hashCode() + " xxx" + ltwo);
 	}
 }
